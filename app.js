@@ -1,9 +1,9 @@
 var express = require('express'),
     app = express(),
-    port = process.env.port || 3001; 
+    port = process.env.port || 3000; 
 
 app.listen(port, () => {
-    console.log('Server listening on port 3001');
+    console.log('Server listening on port 3000');
 });
 
 // app.get('/test', function(req, res) {
